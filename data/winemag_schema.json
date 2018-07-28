@@ -1,0 +1,90 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data\\winemag-data-130k-v2.csv",
+            "profile": "tabular-data-resource",
+            "name": "winemag-data-130k-v2",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "description",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "designation",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "points",
+                        "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "price",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "province",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "region_1",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "region_2",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "taster_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "taster_twitter_handle",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "title",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "variety",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "winery",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
